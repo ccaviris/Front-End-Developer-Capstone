@@ -1,9 +1,9 @@
 
 //import './App.css';
 
-function Footer() {
-    return (
-      <footer>
+function Nav() {
+  return (
+    <nav>
       <img src="" alt="placeholder for logo"/>
       <ul>
         <li><a href="/home">Homepage</a></li>
@@ -13,25 +13,13 @@ function Footer() {
         <li><a href="/order">Order Online</a></li>
         <li><a href="/menu">Login</a></li>
       </ul>
-      <ul>
-        <li>Contact</li>
-        <li>Adress</li>
-        <li>Phone Number</li>
-        <li>Email</li>
-      </ul>
-      <ul>
-        <li>Social Media</li>
-        <li>Adress</li>
-        <li>Phone Number</li>
-        <li>Email</li>
-      </ul>
-      </footer>
-    );
-  }
+    </nav>
+  );
+}
 
-  export default Footer;
+export default Nav;
 
-  /*
-  TODO:
+/*
+TODO:
 
-  */
+*/
