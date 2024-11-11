@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Dropdown from './apps/Dropdown'
-import Footer from './apps/Footer'
+import Header from './apps/HeaderApp'
+import Footer from './apps/FooterApp'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Dropdown/>
+    <Header/>
     <App />
     <Footer />
   </React.StrictMode>
