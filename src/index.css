@@ -1,6 +1,6 @@
 body{
   background-color: #495E57;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Karla";
   margin-top: 3rem;
   margin-bottom: 3rem;
   margin-left: 5%;
@@ -9,20 +9,26 @@ body{
 
 h1{
   font-size: 3rem;
+  font-family: 'Markazi Text';
 }
 h2{
   font-size: 2rem;
+  font-family: 'Markazi Text';
+}
+h3{
+  font-size: 1rem;
+  font-family: 'Markazi Text';
 }
 nav {
   background-color: #EDFFEE;
-
+  font-family: 'Markazi Text';
   margin-top: 2rem;
   padding: 0.5rem 2rem;
   border-radius: 30px;
 }
 
 nav img {
-  width: 200px;
+  width: 250px;
   object-fit: scale-down
 }
 
@@ -42,7 +48,7 @@ nav a {
   text-decoration: none;
   color: #333333;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 2.5rem;
   padding: 10px 20px;
   display: inline-block;
   border-radius: 20px;
@@ -61,6 +67,7 @@ article{
 footer{
   display: flex;
   background-color: #333333;
+  font-family: "Karla";
   margin-top: 2rem;
   padding: 0.5rem 2rem;
   border-radius: 30px;

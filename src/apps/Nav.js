@@ -3,8 +3,8 @@ import logo from "../assets/logo.png";
 function Nav() {
   return (
     <nav>
-      <img src={logo} alt="placeholder for logo"/>
       <ul>
+        <li><img src={logo} alt="placeholder for logo"/></li>
         <li><a href="/home">Homepage</a></li>
         <li><a href="/about">About Us</a></li>
         <li><a href="/menu">Menu</a></li>
