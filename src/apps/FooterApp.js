@@ -1,11 +1,11 @@
-
-//import './App.css';
+import logo from "../assets/logo_footer.png";
 
 function Footer() {
     return (
       <footer>
-      <img src="" alt="placeholder for logo"/>
+      <img src={logo} alt="placeholder for logo"/>
       <ul>
+        <h3>Website Navigation</h3>
         <li><a href="/home">Homepage</a></li>
         <li><a href="/about">About Us</a></li>
         <li><a href="/menu">Menu</a></li>
@@ -14,13 +14,13 @@ function Footer() {
         <li><a href="/menu">Login</a></li>
       </ul>
       <ul>
-        <li>Contact</li>
+        <h3>Contact</h3>
         <li>Adress</li>
         <li>Phone Number</li>
         <li>Email</li>
       </ul>
       <ul>
-        <li>Social Media</li>
+        <h3>Social Media</h3>
         <li>Adress</li>
         <li>Phone Number</li>
         <li>Email</li>

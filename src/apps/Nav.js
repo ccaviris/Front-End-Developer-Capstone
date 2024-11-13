@@ -1,10 +1,9 @@
-
-//import './App.css';
+import logo from "../assets/logo.png";
 
 function Nav() {
   return (
     <nav>
-      <img src="" alt="placeholder for logo"/>
+      <img src={logo} alt="placeholder for logo"/>
       <ul>
         <li><a href="/home">Homepage</a></li>
         <li><a href="/about">About Us</a></li>
