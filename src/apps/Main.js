@@ -20,7 +20,6 @@ function Main() {
           <Route path="/order" element={<SpecialsApp/>}></Route>
         </Routes>
         </BrowserRouter>
-        <div>This is the main element</div>
       </main>
     );
   }
