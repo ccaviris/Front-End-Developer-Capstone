@@ -43,6 +43,16 @@ nav {
   }
 }
 
+article{
+  padding: 10px;
+}
+
+
+article img {
+  width: 70%;
+  object-fit: scale-down
+}
+
 nav img {
   width: 250px;
   object-fit: scale-down
