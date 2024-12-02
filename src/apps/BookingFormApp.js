@@ -38,7 +38,7 @@ function BookingFormApp({availableTimes, dispatch}) {
       const newDate = (date) => {
         dispatch(date);
         setTime(availableTimes[0]);
-        //alert(date);
+        alert(date);
       }
 
 
