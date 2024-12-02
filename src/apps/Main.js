@@ -13,9 +13,12 @@ const updateTimes = (date) => {
   return ['Please Select a Time!!!!!', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00']
 }
 
+const initializeTimes = () => {
+  return ['Please Select a Time', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
+}
 
 function Main() {
-    const initialTimes = ['Please Select a Time', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
+    const initialTimes = initializeTimes();
 
     const [availableTimes, dispatch] = useReducer(updateTimes, initialTimes);
 

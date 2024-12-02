@@ -43,6 +43,7 @@ function BookingFormApp({availableTimes, dispatch}) {
 
     return (
         <form onSubmit={handleSubmit}>
+            <p>Make a reservation, trust us with your special occasion, and we may or may not honor honor that reservation!</p>
             <label>First name<sup>*</sup>:</label>
             <input
                 value={firstName}
