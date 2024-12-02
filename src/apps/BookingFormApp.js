@@ -13,6 +13,7 @@ function BookingFormApp({availableTimes, dispatch}) {
     const getIsFormValid = () => {
         return (
             firstName &&
+            lastName &&
             date &&
             time &&
             (time != availableTimes[0])
@@ -53,7 +54,7 @@ function BookingFormApp({availableTimes, dispatch}) {
                 placeholder="First name"
             />
 
-            <label>Last name:</label>
+            <label>Last name<sup>*</sup>:</label>
             <input
                 value={lastName}
                 onChange={(e) => {

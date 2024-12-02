@@ -10,6 +10,9 @@ import SpecialsApp from './SpecialsApp.js'
 //const availableTimes = ['Please Select a Time', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
 
 const updateTimes = (date) => {
+  let emptyTimes = ['Please Select a Time!!!!!'];
+  //const times = fetchAPI(date);
+
   return ['Please Select a Time!!!!!', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00']
 }
 
