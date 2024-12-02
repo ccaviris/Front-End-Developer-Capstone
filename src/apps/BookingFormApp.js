@@ -1,8 +1,6 @@
 import {useState} from "react"; 
 
-function BookingFormApp() {
-    const availableTimes = ['Please Select a Time', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
-
+function BookingFormApp({availableTimes, dispatch}) {
 
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
@@ -36,6 +34,12 @@ function BookingFormApp() {
         clearForm();
       };
 
+      const newDate = (date) => {
+        dispatch(date);
+        setTime(availableTimes[0]);
+        //alert(date);
+      }
+
 
     return (
         <form onSubmit={handleSubmit}>
@@ -64,6 +68,7 @@ function BookingFormApp() {
                 value={date}
                 onChange={(e) => {
                     setDate(e.target.value);
+                    newDate(e.target.value)
                 }}
                 />
 

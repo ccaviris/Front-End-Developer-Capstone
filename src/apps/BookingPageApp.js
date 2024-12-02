@@ -2,7 +2,7 @@ import {useState} from "react";
 
 import BookingFormApp from './BookingFormApp.js'
 
-function BookingPageApp() {
+function BookingPageApp({availableTimes, dispatch}) {
 
 
 
@@ -11,7 +11,7 @@ function BookingPageApp() {
         <>
             <h1>Online Reservation Service.</h1>
             <p>Make a reservation, trust us with your special occasion, and we may or may not honor honor that reservation!</p>
-            <BookingFormApp/>
+            <BookingFormApp availableTimes={availableTimes} dispatch={dispatch}/>
         </>
     );
   }
